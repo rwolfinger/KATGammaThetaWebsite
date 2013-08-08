@@ -7,6 +7,15 @@
 
 <STYLE TYPE="text/css">
 
+<!--
+#headerlogo
+{background-color:none;
+left :32%;
+position:absolute;
+padding:5px;
+border:0px;
+}-->
+
 /* Reset some list defaults for all lists */
 ul {
   list-style: none;
@@ -16,7 +25,7 @@ ul {
 
 /* The main container */
 #sticky-list  {
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   position: relative;
 }
@@ -38,22 +47,13 @@ ul {
   top: 0;
 }
    
-<!--
-#headerlogo
-{background-color:none;
-left :35%;
-position:absolute;
-padding:5px;
-border:0px;
-}-->
 
 <!--
 #blackbar
 {background-color:none;
-left :20%;
-margin-top :130px;
+margin-top :200px;
 position:relative;
-padding:10px;
+padding:0px;
 border:0px;
 }-->
 
@@ -70,8 +70,9 @@ letter-spacing:0pt;
 <!--
 #bodytext {
 background-color:none;
-width:700px;
-left :25%;
+width:800px;
+left :20%;
+margin-top :15px;
 position:relative;
 padding:10px;
 border:0px;
@@ -84,7 +85,7 @@ border:0px;
 background-color:none;
 width:600px;
 position:absolute;
-left:52%;
+left:50%;
 margin-left:-300px;
 margin-top:25px;
 border:0px;
@@ -127,27 +128,34 @@ anylinkmenu.init("menuanchorclass")
 </head>
 
 
-<div id="sticky-list"><strong>
+
 <div id="headerlogo">
 <body>
-<center><a href="home.html"><img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/thetalogo.png" border="0" width="400" height="130"></a></center><br>
+<center><a href="home.html"><img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/thetalogo.png" border="0" width="500" height="162"></a></center><br>
 </div>
 <center>
-<div id="blackbar"></div>
-<img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/blackbar.png"  width="1400" height="35">
-</div>
-<a class="menuanchorclass" rel="anylinkmenu1" data-image="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/abouttkao.png" data-overimage="aboutkaoover.png"><img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/abouttkao.png" style="border-width:0"/></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu2" data-image="thetaatcmu.png" data-overimage="thetaatcmuover.png"><img src="thetaatcmu.png" style="border-width:0" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu3" data-image="events.png" data-overimage="eventsover.png"><img src="events.png" style="border-width:0" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu4" data-image="meetoursisters.png" data-overimage="meetoursistersover.png"><img src="meetoursisters.png" style="border-width:0" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu5" data-image="greeklife.png" data-overimage="greeklifeover.png"><img src="greeklife.png" style="border-width:0" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="photogallery.html"><img src="photogallery.png" border="0" class="domroll photogalleryover.png" /></a>
+<div id="sticky-list"><strong>
+<div id="blackbar">
+<img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/blackbar.png"  width="1400" height="40" style="position: relative; top: 0px; left: 0px;">
 
+<a class="menuanchorclass" rel="anylinkmenu1" data-image="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/aboutkao.png" data-overimage="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/aboutkaoover.png">
+<img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/aboutkao.png" width="50" height="20" style="position: absolute; top: 10px; left: 250px;"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="menuanchorclass" rel="anylinkmenu2" data-image="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/kaoatcmu.png" data-overimage="thetaatcmuover.png">
+<img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/kaoatcmu.png" width="80" height="20" style="position: absolute; top: 10px; left: 400px;" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="menuanchorclass" rel="anylinkmenu3" data-image="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/events.png" data-overimage="eventsover.png">
+<img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/events.png" width="55" height="20" style="position: absolute; top: 10px; left: 580px;" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="menuanchorclass" rel="anylinkmenu4" data-image="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/meetoursisters.png" data-overimage="meetoursistersover.png">
+<img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/meetoursisters.png" width="60" height="20" style="position: absolute; top: 10px; left: 750px;" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="menuanchorclass" rel="anylinkmenu5" data-image="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/greeklife.png" data-overimage="greeklifeover.png">
+<img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/greeklife.png" width="70" height="20" style="position: absolute; top: 10px; left: 900px;"/></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="photogallery.html">
+<img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/photogallery.png" border="0" class="domroll photogalleryover.png" width="55" height="20" style="position: absolute; top: 10px; left: 1070px;" /></a>
+</div>
 </center>
 
 </strong>
@@ -155,12 +163,12 @@ anylinkmenu.init("menuanchorclass")
 
 
 <ul>
-
+ 
 
 
 
 <div id="bodytext">
-<center><img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/thetahomescreen.png" width="600" height="405"><br></br>
+<center><img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/thetahomescreen.png" width="700" height="455"><br></br>
 <img src="file:///Users/rebeccawolfinger/KATGammaThetaWebsite/WebContent/WEB-INF/png/welcome.png" width="400" height="30"><br></br></center>
 <blockquote width="40%">Welcome to Kappa Alpha Theta at Carnegie Mellon University! Being a Theta sister at Gamma Theta is an amazing experience. It means being surrounded by women who all share and value scholarship, service, leadership, and most importantly sisterhood.<br></br>
 
