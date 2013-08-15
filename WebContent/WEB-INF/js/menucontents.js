@@ -3,7 +3,7 @@ anylinkmenu1.items=[
 	["History", "history.html"],
 	["Facts", "facts.html"],
 	["Notable Thetas", "notablethetas.html"],
-	["KA&Theta; Official Site", "http://kappaalphatheta.org"],
+	["KAO Official Site", "http://kappaalphatheta.org"],
 	["Kappa Alpha Theta Foundation", "http://kappaalphathetafoundation.org", "linktarget:_new"] //no comma following last entry!
 ]
 
