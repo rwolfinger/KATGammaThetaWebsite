@@ -9,9 +9,9 @@ position: absolute;
 left: 0;
 top: 0;
 visibility: hidden;
-border: 1px solid 5aa19c;
+border: 1px solid 000000;
 border-bottom-width: 0;
-font: normal 10px Trebuchet MS;
+font: normal 10px Ostrich Sans;
 line-height: 18px;
 z-index: 100; /* zIndex should be greater than that of shadow's below */
 background: white;
@@ -28,7 +28,7 @@ list-style-type: none;
 width: 100%;
 display: block;
 text-indent: 3px;
-border-bottom: 1px solid 5aa19c;
+border-bottom: 1px solid 000000;
 padding: 2px 0;
 text-decoration: none;
 text-indent: 5px;
@@ -36,7 +36,7 @@ text-indent: 5px;
 
 .anylinkmenu a:hover{ /*hover background color*/
 background: white;
-color: e55c5c;
+color: FFCD00;
 }
 
 /* ######### Alternate multi-column class for drop down menus ######### */
@@ -50,9 +50,9 @@ top: 0;
 visibility: hidden;
 border: 1px solid black;
 padding: 10px;
-font: normal 10px Trebuchet MS;
+font: normal 10px Ostrich Sans;
 z-index: 100; /*zIndex should be greater than that of shadow's below*/
-background: #E9E9E9;
+background: #000000;
 }
 
 .anylinkmenucols li{
@@ -63,7 +63,7 @@ padding-bottom: 3px;
 float: left;
 padding: 3px 8px;
 margin-right: 5px;
-background: #E0E0E0;
+background: #000000;
 }
 
 .anylinkmenucols .column ul{
