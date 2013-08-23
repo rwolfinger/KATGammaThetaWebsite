@@ -9,10 +9,11 @@ position: absolute;
 left: 0;
 top: 0;
 margin-top: 9px;
+margin-left: -5px;
 visibility: hidden;
 border: 1px solid black;
 border-bottom-width: 0;
-font: normal 18px Ostrich Sans;
+font: normal 18px Ostrich Sans Rounded;
 line-height: 20px;
 z-index: 100; /* zIndex should be greater than that of shadow's below */
 background: white;
@@ -37,7 +38,7 @@ text-indent: 5px;
 
 .anylinkmenu a:hover{ /*hover background color*/
 background: white;
-color: FFCD00;
+color: B79F3F;
 }
 
 /* ######### Alternate multi-column class for drop down menus ######### */
@@ -51,7 +52,7 @@ top: 0;
 visibility: hidden;
 border: 1px solid black;
 padding: 10px;
-font: normal 20px Ostrich Sans;
+font: normal 20px Ostrich Sans Rounded;
 z-index: 100; /*zIndex should be greater than that of shadow's below*/
 background: #000000;
 }

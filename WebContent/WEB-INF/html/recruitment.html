@@ -1,59 +1,77 @@
 <html>
 <head>
-<title> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp KAPPA ALPHA THETA | gamma theta chapter | carnegie mellon university</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KAΘ | ΓΘ | CMU</title>
 
 <STYLE TYPE="text/css">
 
 <!--
-body
-{font-size: 9pt; 
-font-family: Times, serif;
-color:#686868; 
-line-height:+1.5; 
-letter-spacing:0pt;
+#headerlogo
+{background-color:none;
+left :32%;
+position:absolute;
+padding:5px;
+border:0px;
 }-->
 
-<!-- 
-BODY 
-{background-color:d6eae9;
-background-image: url(background.png);
-background-repeat: repeat-x;
-background-attachment:fixed;} -->
+/* Reset some list defaults for all lists */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* The main container */
+#sticky-list  {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* The main list */
+#sticky-list > ul {
+  height: 100%;
+  overflow: auto;
+}
+
+/* Section headers, defined through "headlineSelector" */
+#sticky-list > ul > li strong {
+  display: block;
+}
+
+/* Section headers when "sticky", defined through "stickyClass" */
+#sticky-list > ul > li.sticky strong {
+  position: absolute;
+  top: 0;
+}
+   
 
 <!--
-#sidebar {
-background-color:none;
-width:250px;
-right:50%;
-margin-right:135px;
-margin-top:0px;
-position:absolute;
+#blackbar
+{background-color:none;
+margin-top :200px;
+position:relative;
+padding:0px;
 border:0px;
-padding:20px;
-}
--->
+}-->
 
 <!--
-#sidebarbackground {
-background-color:white;
-opacity:.45;
-width:250px;
-height:265px;
-right:50%;
-margin-right:135px;
-margin-top:0px;
-position:absolute;
-border:0px;
-padding:20px;
-}
--->
+body
+{font-size: 12pt; 
+font-family: Times, New Roman;
+color:#404040; 
+line-height:25px; 
+letter-spacing:0pt;
+text-align: justify;
+}-->
 
 <!--
 #bodytext {
 background-color:none;
-width:480px;
-left:50%;
-margin-left:-115px;
+width:700px;
+left:25%;
+margin-left: 0px;
 position:absolute;
 padding:20px;
 border:0px;
@@ -65,7 +83,7 @@ border:0px;
 background-color:white;
 opacity:.45;
 width:480px;
-height:375px;
+height:575px;
 left:50%;
 margin-left:-115px;
 position:absolute;
@@ -82,29 +100,29 @@ height:30px;
 position:absolute;
 left:50%;
 margin-left:-300px;
-margin-top:435px;
+margin-top:1550px;
 border:0px;
 }
 -->
 
 
 <!--
-A:link{COLOR:#5aa19c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; font-weight: bold} 
-A:visited{COLOR:#5aa19c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; font-weight: bold} 
-A:active{COLOR:#5aa19c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; font-weight: bold} 
-A:hover{COLOR:#e5665c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; font-weight:bold italic;}-->
+A:link{COLOR:#000000; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight: none; font-family:Ostrich Sans;} 
+A:visited{COLOR:#000000; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight: none; font-family:Ostrich Sans;} 
+A:active{COLOR:#000000; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight: none; font-family:Ostrich Sans;} 
+A:hover{COLOR:#B79F3F; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight:none italic; font-family:Ostrich Sans}-->
 
 </style>
 
 
-<link rel="stylesheet" type="text/css" href="anylinkmenu.css" />
+<link rel="stylesheet" type="text/css" href="../css/anylinkmenu.css" />
 
-<script type="text/javascript" src="menucontents.js"></script>
+<script type="text/javascript" src="../js/menucontents.js"></script>
 
-<script type="text/javascript" src="anylinkmenu.js">
+<script type="text/javascript" src="../js/anylinkmenu.js">
 
 /***********************************************
-* AnyLink JS Drop Down Menu v2.0- � Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* AnyLink JS Drop Down Menu v2.0- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
 * This notice MUST stay intact for legal use
 * Visit Project Page at http://www.dynamicdrive.com/dynamicindex1/dropmenuindex.htm for full source code
 ***********************************************/
@@ -118,78 +136,99 @@ anylinkmenu.init("menuanchorclass")
 
 </script>
 
-
-
-
-
 </head>
 
-<center><a href="home.html"><img src="header.png" border="0"></a></center>
+
+<body>
 
 <center>
+<div id="sticky-list"><strong>
+<a href="home.html"><img src="../png/thetalogo.png"  width="500" height="162" style="position: absolute;  top: 0px; left: 450px;" /></a>
+<div id="blackbar">
 
-<p><a class="menuanchorclass" rel="anylinkmenu1" data-image="aboutkao.png" data-overimage="aboutkaoover.png"><img src="aboutkao.png" style="border-width:0" /></a>
+<img src="../png/blackbar.png"  width="1400" height="40" style="position: relative; top: 0px; left: 0px;">
+
+<img src="../png/goldbar.png"  width="1400" height="4" style="position: absolute; top: 40px; left: 3px;">
+<a class="menuanchorclass" rel="anylinkmenu1" data-image="../png/aboutkao.png" data-overimage="../png/aboutkaoover.png" style="position: absolute; top: 10px; left: 250px;">
+<img src="../png/aboutkao.png" width="50" height="20" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu2" data-image="thetaatcmu.png" data-overimage="thetaatcmuover.png"><img src="thetaatcmu.png" style="border-width:0" /></a>
+
+<a class="menuanchorclass" rel="anylinkmenu2" data-image="../png/kaoatcmu.png" data-overimage="../png/thetaatcmuover.png" style="position: absolute; top: 10px; left: 400px;">
+<img src="../png/kaoatcmu.png" width="90" height="20"  /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu3" data-image="events.png" data-overimage="eventsover.png"><img src="events.png" style="border-width:0" /></a>
+
+<a class="menuanchorclass" rel="anylinkmenu3" data-image="../png/meetoursisters.png" data-overimage="../png/meetoursistersover.png"  style="position: absolute; top: 10px; left: 580px;" >
+<img src="../png/meetoursisters.png" width="60" height="20"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu4" data-image="meetoursisters.png" data-overimage="meetoursistersover.png"><img src="meetoursisters.png" style="border-width:0" /></a>
+
+<a href="recruitment.html">
+<img src="../png/recruitment.png"  class="domroll ../png/recruitmentover.png" width="100" height="20"  style="position: absolute; top: 10px; left: 730px;" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu5" data-image="greeklife.png" data-overimage="greeklifeover.png"><img src="greeklife.png" style="border-width:0" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="photogallery.html"><img src="photogallery.png" border="0" class="domroll photogalleryover.png" /></a>
+
+<a href="ourhouse.html">
+<img src="../png/ourhouse.png"  class="domroll ../png/ourhouseover.png" width="80" height="20"  style="position: absolute; top: 10px; left: 920px;" /></a>
+
+<a href="photogallery.html">
+<img src="../png/photogallery.png" border="0" class="domroll ../png/photogalleryover.png" width="55" height="20" style="position: absolute; top: 10px; left: 1070px;" /></a>
 
 
-<img src="dottedline.png">
-
-</p>
-
-
-
+</div>
 </center>
 
-
-
-
-
-
-<div id="sidebarbackground"></div>
-
-<div id="sidebar">
-<center><img src="32.png"><br><br><img src="dottedline2.png"><br>
-<img src="recruitment.png"></center>
+</strong>
 </div>
+
 
 
 
 <div id="bodytextbackground"></div>
 
 <div id="bodytext">
-All women interested in joining a sorority participate in a structured recruitment process called FMR (Formal Membership Recruitment). During this process, potential new members get to meet the women from each organization while making friends with the girls in their recruitment groups. We encourage anyone even remotely interested in Greek Life to sign up for recruitment!<br><br>
+<font size="+3" face="Ostrich Sans Rounded" color="B79F3F" style="letter-spacing: 1pt">Recruitment</font><br><br>We at Kappa Alpha Theta cannot wait to meet all the women going through Formal Membership Recruitment this fall! Recruitment is an unforgettable experience; you will explore many houses, meet hundreds of women, form enduring friendships, eat great food, and much more. Many sorority members at CMU can attest their amazing college experience to being a part of the Greek community.
+<br><br>Even if you are not sure that going Greek is for you, recruitment can be a fantastic way to become acquainted at CMU by making new friends to start off the semester. We encourage everyone to participate in Formal Membership Recruitment because we hope that more young women will able to find the same happiness that we have found in Theta. 
+<br><br>For more information about Formal Membership Recruitment and how to register please visit CMU’s Panhellenic website <a href="http://www.studentaffairs.cmu.edu/student-life/greek/fs/recruitment/index.html" target="_blank">located here</a>.
+It is our sincere hope that each participant in Formal Membership Recruitment finds a house to call her home. If you have any questions, see our FAQ section below, and always feel free to email <a href="mailto:vivianc@andrew.cmu.edu">Vivian</a> or <a href="mailto:caitlinj@andrew.cmu.edu">Caitlin</a>.
+<br><br>Loyally,<br><br>
+<font face="zapfino" size="3pt">Vivian Chang&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Caitlin Jones</font><br>
 
-<font size="+1"><b>Resources</b></font><br>
+Vivian Chang&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Caitlin Jones<br>
+ Chief Recruitment Officer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Recruitment Director<br><br>
+ <br>
 
-<a href="http://www.studentaffairs.cmu.edu/student-life/greek/fs/recruitment/index.html" target="_blank">Click here</a> to learn more about recruitment on the CMU Student Life Website.<br><br>
-If you have any questions about recruitment, please feel free to email <a href="mailto:mletner@andrew.cmu.edu">Meredith Letner</a>, Chief Recruiting Officer, or <a href="mailto:lbouabde@andrew.cmu.edu">Leila Bouabdellaoui</a>, Recruitment Director!<br><br>
+<font size="+3" face="Ostrich Sans Rounded" color="B79F3F" style="letter-spacing: 1pt">Letters of Reference</font><br><br>
+We greatly appreciate and encourage Theta alumnae to submit letters of reference and legacy introductions for potential new members. Both the reference form and legacy introduction form can be downloaded from Theta's national website by <a href="http://www.kappaalphatheta.org/alumnae/resources/recommend_a_potential_new_member.cfm" target="_blank">clicking here</a>! Please mail any letters of reference to:<br>
 
-<font size="+1"><b>Letters of Reference</b></font><br>
-We greatly appreciate and encourage Theta alumnae to submit letters of reference and legacy introductions for potential new members. Both the reference form and legacy introduction form can be downloaded from Theta�s national website by <a href="http://www.kappaalphatheta.org/alumnae/resources/recommend_a_potential_new_member.cfm" target="_blank">clicking here</a>! Please mail any letters of reference to:<br><br>
-
-<center><font style="font-size:10px">KAPPA ALPHA THETA<br>
+<center><font style="font-size:13px">KAPPA ALPHA THETA<br>
 ATTN: REFERENCE CHAIR<br>
 1077 MOREWOOD AVE.<br>
 PITTSBURGH, PA 15213</font></center><br><br>
 
 
 
+<font size="+3" face="Ostrich Sans Rounded" color="B79F3F" style="letter-spacing: 1pt">FAQS</font><br><br>
+
+
+<font size="+2" face="Ostrich Sans Rounded" color="B79F3F" style="letter-spacing: 1pt">Why should i go through recruitment?</font><br>
+Why Not? You have nothing to lose and everything to gain. You will make new friends in your recruitment group, get a taste for the personalities of each house, and most of all, potentially find sisters for a lifetime.<br><br>
+
+<font size="+2" face="Ostrich Sans Rounded" color="B79F3F" style="letter-spacing: 1pt">What is recruitment like?</font><br>
+Recruitment is a structured series of small parties held at each house. On the first night, every girl going through recruitment has a chance to mingle with members of all six houses. On subsequent nights, a mutual selection process determines what houses each girl will continue to visit.<br><br>
+
+<font size="+2" face="Ostrich Sans Rounded" color="B79F3F" style="letter-spacing: 1pt">How should I act?</font><br>
+Be yourself! The more comfortable you feel in each house, the more you will be able to focus on making personal connections and understanding each house’s personality.<br><br>
+
+<font size="+2" face="Ostrich Sans Rounded" color="B79F3F" style="letter-spacing: 1pt">Do you have any advice for me?</font><br>
+Be well rested. Be open minded. And again, be yourself!<br><br>
 
 </div>
 
-<div id="faithhopelove"><center><img src="faithhopelove.png"><br>&copy; Kappa Alpha Theta &bull; Gamma Theta Chapter &bull; 2011<br>&nbsp;</center></div><br><br>&nbsp; 
+
+<div id="faithhopelove"><center><img src="../png/faithhopelove.png" width="600" height="25"><br>&copy; Kappa Alpha Theta &bull; Gamma Theta Chapter &bull; 2013<br>&nbsp;</center></div>
 
 
-<script src="chrisdomroll.js">
+<script src="../js/chrisdomroll.js">
 
 /****************************************************
 * DOM Image rollover v3.0: By Chris Poole http://chrispoole.com

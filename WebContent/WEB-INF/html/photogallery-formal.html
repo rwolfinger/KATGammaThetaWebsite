@@ -1,36 +1,108 @@
 <html>
 <head>
-<title> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp KAPPA ALPHA THETA | gamma theta chapter | carnegie mellon university</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KAΘ | ΓΘ | CMU</title>
 
 <STYLE TYPE="text/css">
 
 <!--
+#headerlogo
+{background-color:none;
+left :32%;
+position:absolute;
+padding:5px;
+border:0px;
+}-->
+
+/* Reset some list defaults for all lists */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* The main container */
+#sticky-list  {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* The main list */
+#sticky-list > ul {
+  height: 100%;
+  overflow: auto;
+}
+
+/* Section headers, defined through "headlineSelector" */
+#sticky-list > ul > li strong {
+  display: block;
+}
+
+/* Section headers when "sticky", defined through "stickyClass" */
+#sticky-list > ul > li.sticky strong {
+  position: absolute;
+  top: 0;
+}
+   
+
+<!--
+#blackbar
+{background-color:none;
+margin-top :200px;
+position:relative;
+padding:0px;
+border:0px;
+}-->
+
+<!--
 body
-{font-size: 9pt; 
-font-family: Times, serif;
-color:#686868; 
-line-height:17px; 
+{font-size: 12pt; 
+font-family: Times, New Roman;
+color:#000000; 
+line-height:16px; 
 letter-spacing:0pt;
 }-->
 
-<!-- 
-BODY 
-{background-color:d6eae9;
-background-image: url(background.png);
-background-repeat: repeat-x;
-background-attachment:fixed;} 
+<!--
+#sidebar {
+background-color:none;
+width:250px;
+right:50%;
+margin-right:135px;
+margin-top:0px;
+position:absolute;
+border:0px;
+padding:20px;
+}
 -->
 
-
+<!--
+#sidebarbackground {
+background-color:white;
+opacity:.45;
+width:250px;
+height:40px;
+right:50%;
+margin-right:135px;
+margin-top:0px;
+position:absolute;
+border:0px;
+padding:20px;
+}
+-->
 
 <!--
 #bodytext {
 background-color:none;
-width:800px;
+font-family: Times, New Roman;
+color:#000000; 
+width:480px;
+left:40%;
+margin-left:-115px;
 position:absolute;
-left:50%;
-margin-left:-410px;
-padding:10px;
+padding:20px;
 border:0px;
 }
 -->
@@ -39,12 +111,12 @@ border:0px;
 #bodytextbackground {
 background-color:white;
 opacity:.45;
-width:800px;
-height:500px;
-position:absolute;
+width:480px;
+height:575px;
 left:50%;
-margin-left:-410px;
-padding:10px;
+margin-left:-115px;
+position:absolute;
+padding:20px;
 border:0px;
 }
 -->
@@ -53,14 +125,14 @@ border:0px;
 #faithhopelove {
 background-color:none;
 width:600px;
+height:30px;
 position:absolute;
 left:50%;
 margin-left:-300px;
-margin-top:545px;
+margin-top:525px;
 border:0px;
 }
 -->
-
 <!--
 #gallery {
 background-color:white;
@@ -76,81 +148,98 @@ border:0px;
 -->
 
 
+
+
 <!--
-A:link{COLOR:#5aa19c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; font-weight: bold} 
-A:visited{COLOR:#5aa19c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; font-weight: bold} 
-A:active{COLOR:#5aa19c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; font-weight: bold} 
-A:hover{COLOR:#e5665c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; font-weight:bold italic;}-->
+A:link{COLOR:#000000; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight: none; font-family:Ostrich Sans;} 
+A:visited{COLOR:#000000; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight: none; font-family:Ostrich Sans;} 
+A:active{COLOR:#000000; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight: none; font-family:Ostrich Sans;} 
+A:hover{COLOR:#B79F3F; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight:none italic; font-family:Ostrich Sans}-->
 
 </style>
 
 
-<link rel="stylesheet" type="text/css" href="anylinkmenu.css" />
+<link rel="stylesheet" type="text/css" href="../css/anylinkmenu.css" />
 
-<script type="text/javascript" src="menucontents.js"></script>
+<script type="text/javascript" src="../js/menucontents.js"></script>
 
-<script type="text/javascript" src="anylinkmenu.js"></script>
+<script type="text/javascript" src="../js/anylinkmenu.js">
 
-<script type="text/javascript">anylinkmenu.init("menuanchorclass")</script>
+/***********************************************
+* AnyLink JS Drop Down Menu v2.0- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Project Page at http://www.dynamicdrive.com/dynamicindex1/dropmenuindex.htm for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+//anylinkmenu.init("menu_anchors_class") //Pass in the CSS class of anchor links (that contain a sub menu)
+anylinkmenu.init("menuanchorclass")
+
+</script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-<script src="galleria/galleria-1.2.4.min.js"></script>
-
+<script src="../galleria/galleria-1.2.4.min.js"></script>
 
 </head>
 <body>
 
-<center><a href="home.html"><img src="header.png" border="0"></a></center>
-
 <center>
+<div id="sticky-list"><strong>
+<a href="home.html"><img src="../png/thetalogo.png"  width="500" height="162" style="position: absolute;  top: 0px; left: 450px;" /></a>
+<div id="blackbar">
 
-<p><a class="menuanchorclass" rel="anylinkmenu1" data-image="aboutkao.png" data-overimage="aboutkaoover.png"><img src="aboutkao.png" style="border-width:0" /></a>
+<img src="../png/blackbar.png"  width="1400" height="40" style="position: relative; top: 0px; left: 0px;">
+
+<img src="../png/goldbar.png"  width="1400" height="4" style="position: absolute; top: 40px; left: 3px;">
+<a class="menuanchorclass" rel="anylinkmenu1" data-image="../png/aboutkao.png" data-overimage="../png/aboutkaoover.png" style="position: absolute; top: 10px; left: 250px;">
+<img src="../png/aboutkao.png" width="50" height="20" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu2" data-image="thetaatcmu.png" data-overimage="thetaatcmuover.png"><img src="thetaatcmu.png" style="border-width:0" /></a>
+
+<a class="menuanchorclass" rel="anylinkmenu2" data-image="../png/kaoatcmu.png" data-overimage="../png/thetaatcmuover.png" style="position: absolute; top: 10px; left: 400px;">
+<img src="../png/kaoatcmu.png" width="90" height="20"  /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu3" data-image="events.png" data-overimage="eventsover.png"><img src="events.png" style="border-width:0" /></a>
+
+<a class="menuanchorclass" rel="anylinkmenu3" data-image="../png/meetoursisters.png" data-overimage="../png/meetoursistersover.png"  style="position: absolute; top: 10px; left: 580px;" >
+<img src="../png/meetoursisters.png" width="60" height="20"/></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu4" data-image="meetoursisters.png" data-overimage="meetoursistersover.png"><img src="meetoursisters.png" style="border-width:0" /></a>
+
+<a href="recruitment.html">
+<img src="../png/recruitment.png"  class="domroll ../png/recruitmentover.png" width="100" height="20"  style="position: absolute; top: 10px; left: 730px;" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a class="menuanchorclass" rel="anylinkmenu5" data-image="greeklife.png" data-overimage="greeklifeover.png"><img src="greeklife.png" style="border-width:0" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="photogallery.html"><img src="photogallery.png" border="0" class="domroll photogalleryover.png" /></a>
-<img src="dottedline.png"></p></center>
+
+<a href="ourhouse.html">
+<img src="../png/ourhouse.png"  class="domroll ../png/ourhouseover.png" width="80" height="20"  style="position: absolute; top: 10px; left: 920px;" /></a>
+
+<a href="photogallery.html">
+<img src="../png/photogallery.png" border="0" class="domroll ../png/photogalleryover.png" width="55" height="20" style="position: absolute; top: 10px; left: 1070px;" /></a>
 
 
+</div>
+</center>
 
-
-
-
-
+</strong>
+</div>
 
 
 <div id="bodytextbackground"></div>
 
-<div id="bodytext"><center><a href="photogallery.html"><-- Back to Photo Gallery Menu</a></center></div>
+<div id="bodytext"><center><a href="photogallery.html">Back to Photo Gallery Menu</a></center></div>
 <div id="gallery">
-	<img src="photogallery/formal/50.jpg">
-	<img src="photogallery/formal/58.jpg">
-	<img src="photogallery/formal/61.jpg">
-	<img src="photogallery/formal/48.jpg">
-	<img src="photogallery/formal/46.jpg">
-	<img src="photogallery/formal/57.jpg">
-	<img src="photogallery/formal/42.jpg">
-	<img src="photogallery/formal/47.jpg">
-	<img src="photogallery/formal/60.jpg">
-	<img src="photogallery/formal/49.jpg">
-	<img src="photogallery/formal/56.jpg">
-	<img src="photogallery/formal/51.jpg">
-	<img src="photogallery/formal/44.jpg">
-	<img src="photogallery/formal/55.jpg">
-	<img src="photogallery/formal/52.jpg">
-	<img src="photogallery/formal/53.jpg">
-	<img src="photogallery/formal/45.jpg">
-	<img src="photogallery/formal/54.jpg">
+	<img src="../gallerypics/formalcrushparty/1.jpg">
+	<img src="../gallerypics/formalcrushparty/2.jpg">
+	<img src="../gallerypics/formalcrushparty/3.jpg">
+	<img src="../gallerypics/formalcrushparty/4.jpg">
+	<img src="../gallerypics/formalcrushparty/5.jpg">
+	<img src="../gallerypics/formalcrushparty/6.jpg">
+	<img src="../gallerypics/formalcrushparty/7.jpg">
+	<img src="../gallerypics/formalcrushparty/8.jpg">
 </div>
     
     <center><script>
-    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    Galleria.loadTheme('../galleria/themes/classic/galleria.classic.min.js');
 	 $("#gallery").galleria({
         width: 600,
         height: 450,
@@ -163,12 +252,9 @@ A:hover{COLOR:#e5665c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; f
 
 
 
+<div id="faithhopelove"><center><img src="../png/faithhopelove.png" width="600" height="25"><br>&copy; Kappa Alpha Theta &bull; Gamma Theta Chapter &bull; 2013<br>&nbsp;</center></div>
 
-
-<div id="faithhopelove"><center><img src="faithhopelove.png"><br>&copy; Kappa Alpha Theta &bull; Gamma Theta Chapter &bull; 2011<br>&nbsp;</center></div>
-
-
-<script src="chrisdomroll.js">
+<script src="../js/chrisdomroll.js">
 
 /****************************************************
 * DOM Image rollover v3.0: By Chris Poole http://chrispoole.com
@@ -179,4 +265,3 @@ A:hover{COLOR:#e5665c; FONT-SIZE:10; LINE-HEIGHT: 12px; TEXT-DECORATION: none; f
 </script>
 </body>
 </html>
-
