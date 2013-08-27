@@ -64,6 +64,7 @@ font-family: Times, New Roman;
 color:#404040; 
 line-height:16px; 
 letter-spacing:0pt;
+text-align: justify;
 }-->
 
 
@@ -72,8 +73,31 @@ letter-spacing:0pt;
 background-color:none;
 width:800px;
 left :20%;
-margin-top :15px;
+margin-top :100px;
 position:relative;
+padding:10px;
+border:0px;
+}
+-->
+
+<!--
+#sidebar1 {
+background-color:none;
+width:200px;
+left :52%;
+margin-top :10px;
+position:absolute;
+padding:10px;
+border:0px;
+}
+-->
+<!--
+#sidebar2 {
+background-color:none;
+width:275px;
+left :30%;
+margin-top :20px;
+position:absolute;
 padding:10px;
 border:0px;
 }
@@ -87,18 +111,30 @@ width:600px;
 position:absolute;
 left:50%;
 margin-left:-300px;
-margin-top:25px;
+margin-top:200px;
 border:0px;
 }
 -->
 
+<!--
+#gallery {
+background-color:white;
+width:600px;
+position:relative;
+left:25%;
+margin-top:200px;
+margin-left:40px;
+border:0px;
+
+
+}
+-->
 
 <!--
 A:link{COLOR:#000000; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight: none; font-family:Ostrich Sans;} 
 A:visited{COLOR:#000000; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight: none; font-family:Ostrich Sans;} 
 A:active{COLOR:#000000; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight: none; font-family:Ostrich Sans;} 
-A:hover{COLOR:#B79F3F; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight:none italic; font-family:Ostrich Sans}-->
-
+A:hover{COLOR:#e6b82a; FONT-SIZE:18; LINE-HEIGHT: 20px; TEXT-DECORATION: none; font-weight:none italic; font-family:Ostrich Sans}-->
 </style>
 
 
@@ -124,6 +160,10 @@ anylinkmenu.init("menuanchorclass")
 </script>
 
 </head>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="../galleria/galleria-1.2.4.min.js"></script>
 
 
 <body>
@@ -163,18 +203,61 @@ anylinkmenu.init("menuanchorclass")
 </center>
 
 </strong>
+
+
+
+
+
+
+
+<div id="sidebar1"  style="margin-top:40px"><center><font size="6" face="Ostrich Sans Rounded" color="e6b82a" style="letter-spacing: 1pt; ">Follow us on</font><br></br>
+<a href="https://twitter.com/CMUTheta"><font size="5">Twitter</font></a><br></br>
+<a href="https://www.facebook.com/CMUTheta"><font size="5">Facebook</font></a></center>
+
+</div>
+<div id="sidebar2">
+<font size="6" face="Ostrich Sans Rounded" color="e6b82a" style="letter-spacing: 1pt;">Upcoming events</font><br></br>
+<font size="4.5" face="Ostrich Sans Rounded" color="000000">
+<b>Aug 30</b> Meet the Greeks <b>3-5 pm</b> the Cut<br></br>
+<b>Sept 2</b> Labor Day BBQ<b> 2-4 pm</b> UC Courtyard<br></br>
+<b>SEPT 3</b> Zumba for Casa <b>6:30-8:30 pm</b> Rangos<br></br>
+<b>Sept 6</b> Ice Cream Social<b> 4-6 pm</b> UC Courtyard
+</font>
+
+
 </div>
 
 
+<div id="gallery">
+	<img src="../gallerypics/homepage/thetahomescreencolor.jpeg">
+	<img src="../gallerypics/homepage/1.jpg">
+	<img src="../gallerypics/homepage/2.jpg">
+	<img src="../gallerypics/homepage/3.jpg">
+	<img src="../gallerypics/homepage/4.jpg">
+	<img src="../gallerypics/homepage/5.jpg">
+	<img src="../gallerypics/homepage/6.jpg">
+	<img src="../gallerypics/homepage/7.jpg">
+	<img src="../gallerypics/homepage/8.jpg">
+	<img src="../gallerypics/homepage/9.jpg">
+	<img src="../gallerypics/homepage/11.jpg">
+	<img src="../gallerypics/homepage/12.jpg">
+</div>
+    
+<center><script>
+    Galleria.loadTheme('../galleria/themes/classic/galleria.classic.min.js');
+	 $("#gallery").galleria({
+        width: 600,
+        height: 450,
+	    transition: 'fade',
+	    autoplay: 3500,
 
-<ul>
- 
-
-
-
+    });
+	 Galleria.run('#galleria');
+	 
+</script></center><br></br><br></br>
+<center>
 <div id="bodytext">
-<center><img src="../png/thetahomescreencolor.jpeg" width="700" height="455"><br></br>
-<img src="../png/welcome.png" width="400" height="30"><br></br></center>
+<font size="+3" face="Ostrich Sans Rounded" color="e6b82a" style="letter-spacing: 1pt; ">Carnegie Mellon Gamma Theta Chapter</font><br><br></br></center>
 
 <blockquote width="40%">Welcome to Kappa Alpha Theta at Carnegie Mellon University! Being a Theta sister at Gamma Theta is an amazing experience. It means being surrounded by women who all share and value scholarship, service, leadership, and most importantly sisterhood.<br></br>
 
@@ -192,9 +275,9 @@ Chapter President</br></div></blockquote>
 
 
 
+
 <div id="faithhopelove"><center><img src="../png/faithhopelove.png" width="600" height="25"><br>&copy; Kappa Alpha Theta &bull; Gamma Theta Chapter &bull; 2013<br>&nbsp;</center></div>
 
-</ul>
 
 <script src="../js/chrisdomroll.js">
 

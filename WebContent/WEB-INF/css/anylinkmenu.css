@@ -37,8 +37,10 @@ text-indent: 5px;
 }
 
 .anylinkmenu a:hover{ /*hover background color*/
-background: white;
-color: B79F3F;
+background: #ffcc00;
+color: black;
+font-weight: bold;
+font-family:Ostrich Sans Rounded;
 }
 
 /* ######### Alternate multi-column class for drop down menus ######### */
